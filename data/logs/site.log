@@ -1,0 +1,8 @@
+2016/07/15 06:12:08 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [3.88sec] from 127.0.0.1
+2016/07/15 06:12:08 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [2.21sec] from 127.0.0.1
+2016/07/15 06:12:08 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [2.06sec] from 127.0.0.1
+2016/07/15 06:12:08 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [2.01sec] from 127.0.0.1
+2016/07/15 15:20:47 [/EC-Cube/html/products/detail.php] access : user=admin auth=0 sid=e6poj9phqvphs00hhe2mhorja7 from 127.0.0.1
+2016/07/15 15:20:55 [/EC-Cube/html/products/detail.php] access : user=admin auth=0 sid=e6poj9phqvphs00hhe2mhorja7 from 127.0.0.1
+2016/07/15 15:36:22 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [2.31sec] from 127.0.0.1
+2016/07/17 17:30:48 [/EC-Cube/html/index.php] PAGE_DISPLAY_TIME_LOG [3.66sec] from 127.0.0.1
