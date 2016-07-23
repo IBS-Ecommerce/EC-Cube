@@ -21,45 +21,27 @@
  *}-->
 
 <!--▼HEADER-->
-<div id="header_wrap">
-    <div id="header" class="clearfix">
-        <div id="logo_area">
-            <h1>
-                <a href="<!--{$smarty.const.TOP_URLPATH}-->"><img src="<!--{$TPL_URLPATH}-->img/common/logo.png" alt="<!--{$arrSiteInfo.shop_name|h}-->" /><span><!--{$arrSiteInfo.shop_name|h}-->/<!--{$tpl_title|h}--></span></a>
-            </h1>
-        </div>
-        <div id="header_utility">
-            <div id="headerInternalColumn">
-            <!--{* ▼HeaderInternal COLUMN*}-->
-            <!--{if $arrPageLayout.HeaderInternalNavi|@count > 0}-->
-                <!--{* ▼上ナビ *}-->
-                <!--{foreach key=HeaderInternalNaviKey item=HeaderInternalNaviItem from=$arrPageLayout.HeaderInternalNavi}-->
-                    <!-- ▼<!--{$HeaderInternalNaviItem.bloc_name}--> -->
-                    <!--{if $HeaderInternalNaviItem.php_path != ""}-->
-                        <!--{include_php file=$HeaderInternalNaviItem.php_path items=$HeaderInternalNaviItem}-->
-                    <!--{else}-->
-                        <!--{include file=$HeaderInternalNaviItem.tpl_path items=$HeaderInternalNaviItem}-->
-                    <!--{/if}-->
-                    <!-- ▲<!--{$HeaderInternalNaviItem.bloc_name}--> -->
-                <!--{/foreach}-->
-                <!--{* ▲上ナビ *}-->
-            <!--{/if}-->
-            <!--{* ▲HeaderInternal COLUMN*}-->
+<div id="header_wrap" style="background-color:#ffffff;background-image: none;border-bottom: 1px solid #e9e9e9;height:80px;">
+            <div id="custom-search-input" style="padding: 0px; ">
+                <img src="<!--{$TPL_URLPATH}-->img/banner/logo1.png" alt="logo" style="width:150px;height:auto;float:left;margin-top:-30px;margin-left:200px;"/>
+                <div class="input-group col-md-5" style="margin-top: 30px;">
+                    <input type="text" class="  search-query form-control" placeholder="Search" style="" />
+                    <span class="input-group-btn">
+                    <select class="form-control" id="exampleSelect1" style="float:left;width:150px;border-bottom-left-radius:0px;border-top-left-radius:0px;border-left-width:0px;">
+                        <option>All Category</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <button class="btn btn-danger" type="button">
+                    <span class=" glyphicon glyphicon-search" style="height:21px;padding-top:3px;"></span>
+                    </button>
+                    </span>
+                </div>
+                <div style="height:122px;width:183px;border:1px solid #e9e9e9;float:right;margin-top:-65px;margin-right:222.5px;">
+
+                </div>
             </div>
-            <div id="header_navi">
-                <ul>
-                    <li class="mypage">
-                    <a href="<!--{$smarty.const.HTTPS_URL}-->mypage/login.php">MY page</a>
-                    </li>
-                    <li class="entry">
-                        <a href="<!--{$smarty.const.ROOT_URLPATH}-->entry/kiyaku.php">Member registration</a>
-                    </li>
-                    <li class="view_basket">
-                        <a href="<!--{$smarty.const.CART_URLPATH}-->"><img src="<!--{$TPL_URLPATH}-->img/button/icon_cart.png" alt="" />View cart</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </div>
 <!--▲HEADER-->

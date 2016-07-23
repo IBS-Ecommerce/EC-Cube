@@ -24,7 +24,23 @@
 <noscript>
     <p>Enable JavaScript</p>
 </noscript>
-
+<div style="padding-top:0px;padding-bottom:0px;background-color:#f8f8f8;border-bottom: 1px solid #e9e9e9">
+            <!--{* ▼HeaderInternal COLUMN*}-->
+            <!--{if $arrPageLayout.HeaderInternalNavi|@count > 0}-->
+            <!--{* ▼上ナビ *}-->
+            <!--{foreach key=HeaderInternalNaviKey item=HeaderInternalNaviItem from=$arrPageLayout.HeaderInternalNavi}-->
+            <!-- ▼<!--{$HeaderInternalNaviItem.bloc_name}--> -->
+            <!--{if $HeaderInternalNaviItem.php_path != ""}-->
+            <!--{include_php file=$HeaderInternalNaviItem.php_path items=$HeaderInternalNaviItem}-->
+            <!--{else}-->
+            <!--{include file=$HeaderInternalNaviItem.tpl_path items=$HeaderInternalNaviItem}-->
+            <!--{/if}-->
+            <!-- ▲<!--{$HeaderInternalNaviItem.bloc_name}--> -->
+            <!--{/foreach}-->
+            <!--{* ▲上ナビ *}-->
+            <!--{/if}-->
+            <!--{* ▲HeaderInternal COLUMN*}-->
+</div>
 <div class="frame_outer">
     <a name="top" id="top"></a>
 

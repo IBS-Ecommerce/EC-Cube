@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2016-07-17 17:23:57
+<?php /* Smarty version 2.6.26, created on 2016-07-21 14:35:47
          compiled from C:%5Cwamp%5Cwww%5CEC-Cube%5Chtml/../data/Smarty/templates/default_en-US/frontparts/bloc/recommend.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'C:\\wamp\\www\\EC-Cube\\html/../data/Smarty/templates/default_en-US/frontparts/bloc/recommend.tpl', 20, false),)), $this); ?>
@@ -30,7 +30,7 @@ img/title/icon_bloc_recommend.png" alt="*" class="title_icon" style="margin-top:
     <span>Recommended Products</span>
 </div>
 <div class="row">
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:706px;">
                 <div class="carousel-inner">
@@ -51,7 +51,7 @@ img/banner/e.jpg" alt="">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/11.jpg" alt="" style="height:250px;">
@@ -73,7 +73,51 @@ img/banner/11.jpg" alt="" style="height:250px;">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/11.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$64.99</h4>
+                <h4><a href="#">Second Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">12 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/11.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$64.99</h4>
+                <h4><a href="#">Second Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">12 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/22.gif" alt="" style="height:250px;">
@@ -95,7 +139,7 @@ img/banner/22.gif" alt="" style="height:250px;">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/33.png" alt="" style="height:250px;">
@@ -117,7 +161,7 @@ img/banner/33.png" alt="" style="height:250px;">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/44.jpg" alt="" style="height:250px;">
@@ -174,7 +218,7 @@ img/banner/t3.jpg" alt="">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/55.jpg" alt="" style="height:250px;">
@@ -196,7 +240,7 @@ img/banner/55.jpg" alt="" style="height:250px;">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-43 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/66.jpg" alt="" style="height:250px;">
@@ -218,7 +262,7 @@ img/banner/66.jpg" alt="" style="height:250px;">
         </div>
     </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/77.jpg" alt="" style="height:250px;">
@@ -239,8 +283,49 @@ img/banner/77.jpg" alt="" style="height:250px;">
             </div>
         </div>
     </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/77.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$84.99</h4>
+                <h4><a href="#">Fourth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/77.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$84.99</h4>
+                <h4><a href="#">Fourth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-lg-3 col-md-3">
         <div class="thumbnail">
             <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/88.jpg" alt="" style="height:250px;">
@@ -261,7 +346,7 @@ img/banner/88.jpg" alt="" style="height:250px;">
             </div>
         </div>
     </div>
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/99.jpg" alt="" style="height:250px;">
@@ -283,7 +368,7 @@ img/banner/99.jpg" alt="" style="height:250px;">
     </div>
 </div>
 
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/aa.jpg" alt="" style="height:250px;">
@@ -316,7 +401,7 @@ img/title/icon_bloc_recommend.png" alt="*" class="title_icon" style="margin-top:
     <span>New Products</span>
 </div>
 <div class="row">
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/bb.jpg" alt="" style="height:250px;">
@@ -338,7 +423,7 @@ img/banner/bb.jpg" alt="" style="height:250px;">
     </div>
 </div>
 
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/cc.jpg" alt="" style="height:250px;">
@@ -360,7 +445,7 @@ img/banner/cc.jpg" alt="" style="height:250px;">
     </div>
 </div>
 
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/dd.jpg" alt="" style="height:250px;">
@@ -382,7 +467,7 @@ img/banner/dd.jpg" alt="" style="height:250px;">
     </div>
 </div>
 
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="http:<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/gg.jpg" alt="" style="height:250px;">
@@ -403,7 +488,7 @@ img/banner/gg.jpg" alt="" style="height:250px;">
         </div>
     </div>
 </div>
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/ee.jpg" alt="" style="height:250px;">
@@ -424,8 +509,28 @@ img/banner/ee.jpg" alt="" style="height:250px;">
         </div>
     </div>
 </div>
-
-<div class="col-sm-4 col-lg-4 col-md-4">
+<div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/ee.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$84.99</h4>
+                <h4><a href="#">Fourth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+</div>
+<div class="col-sm-3 col-lg-3 col-md-3">
     <div class="thumbnail">
         <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/ff.jpg" alt="" style="height:250px;">
@@ -446,7 +551,28 @@ img/banner/ff.jpg" alt="" style="height:250px;">
         </div>
     </div>
 </div>
-    <div class="col-sm-12 col-lg-12 col-md-12">
+<div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/ee.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$84.99</h4>
+                <h4><a href="#">Fourth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+</div>
+<div class="col-sm-12 col-lg-12 col-md-12">
     <div class="thumbnail">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:150px;">
             <div class="carousel-inner">
@@ -462,8 +588,172 @@ img/banner/t2.jpg" alt="">
                     <img class="slide-image" src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/banner/t3.jpg" alt="">
                 </div>
-            </div>
         </div>
     </div>
 </div>
+</div>
+</div>
+
+<div id="title-bar">
+    <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/title/icon_bloc_recommend.png" alt="*" class="title_icon" style="margin-top:-5px;"/>
+    <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/title/icon_bloc_recommend.png" alt="*" class="title_icon" style="margin-top:-5px;"/>
+    <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/title/icon_bloc_recommend.png" alt="*" class="title_icon" style="margin-top:-5px;"/>
+    <span>Recommended Products</span>
+</div>
+<div class="row">
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:706px;">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="slide-image" src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/q.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="slide-image" src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/w.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="slide-image" src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/e.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/11.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$64.99</h4>
+                <h4><a href="#">Second Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">12 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/11.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$64.99</h4>
+                <h4><a href="#">Second Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">12 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/11.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$64.99</h4>
+                <h4><a href="#">Second Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">12 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/22.gif" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$74.99</h4>
+                <h4><a href="#">Third Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">31 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-lg-3 col-md-3">
+        <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/33.png" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$84.99</h4>
+                <h4><a href="#">Fourth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<div class="col-sm-3 col-lg-3 col-md-3">
+    <div class="thumbnail">
+            <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/banner/44.jpg" alt="" style="height:250px;">
+            <div class="caption">
+                <h4 class="pull-right">$94.99</h4>
+                <h4><a href="#">Fifth Product</a>
+                </h4>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">18 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star" style="color:orange"></span>
+                    <span class="glyphicon glyphicon-star-empty" style="color:orange"></span>
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
